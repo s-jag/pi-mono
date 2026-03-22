@@ -38,6 +38,7 @@ cp permission-gate.ts ~/.pi/agent/extensions/
 | `minimal-mode.ts` | Override built-in tool rendering for minimal display (only tool calls, no output in collapsed mode) |
 | `truncated-tool.ts` | Wraps ripgrep with proper output truncation (50KB/2000 lines) |
 | `antigravity-image-gen.ts` | Generate images via Google Antigravity with optional save-to-disk modes |
+| `web-search.ts` | Web search and URL extraction via [Parallel API](https://parallel.ai) with `promptSnippet` and `promptGuidelines` |
 | `ssh.ts` | Delegate all tools to a remote machine via SSH using pluggable operations |
 | `subagent/` | Delegate tasks to specialized subagents with isolated context windows |
 
